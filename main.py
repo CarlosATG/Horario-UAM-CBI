@@ -305,7 +305,7 @@ class ScheduleAppGUI:
 
     def export_schedule_to_excel(self):
         # Export the original group-based schedule
-        with pd.ExcelWriter("university_schedule_fixed.xlsx", engine="openpyxl") as writer:
+        with pd.ExcelWriter("group_schedule.xlsx", engine="openpyxl") as writer:
             for group in self.groups:
                 schedule_grid = pd.DataFrame(
                     index=[f"{int(start)}:00 - {int(start + 0.5)}:30" for start, end in self.generate_time_slots()],

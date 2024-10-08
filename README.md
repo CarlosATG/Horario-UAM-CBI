@@ -1,8 +1,3 @@
-GPT
-
-¡Genial! Me alegra mucho saber que ahora funciona correctamente. Aquí te dejo una breve explicación del programa en español, incluyendo las restricciones implementadas y el resultado esperado:
-Descripción del Programa
-
 Este programa genera un horario académico para varias materias, profesores, grupos y salones, tomando en cuenta diversas restricciones y condiciones. La aplicación cuenta con una interfaz gráfica para facilitar la asignación de los profesores y las frecuencias de clases por grupo. Luego, el programa genera un horario que respeta las restricciones y lo exporta a diferentes archivos Excel.
 Restricciones Implementadas
 
